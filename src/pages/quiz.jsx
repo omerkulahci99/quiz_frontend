@@ -22,7 +22,8 @@ const Quiz = () => {
         alert("Sınav süresi doldu")
         navigate("/");
       }
-      if(new Date().getTime() - new Date(quiz.quiz.startTime).getTime() < 0) {
+      if(quiz && new Date().getTime() - new Date(quiz.startTime).getTime() < 0) {
+
         alert("Sınav daha başlamamıştır.")
         navigate("/");
       }
