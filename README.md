@@ -1,6 +1,11 @@
 # STAJ PROJESİ
 ## Çoktan Seçmeli Test Uygulaması
 
+**KULLANILAN PAKETLER**
+* Axios
+* Moment
+* Antd
+
 **KULLANILAN TEKNOLOJİLER**
 * React js
  
